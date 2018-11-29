@@ -1,21 +1,20 @@
 public class vehicle
 {
-    static int doors=4;
+    static int doors;
     static int ps;
     static String color;
 
     public static void main(String[]args)
     {
-        Dooranzahl(doors);
         System.out.println(color);
     }
     static void Dooranzahl(int doors)
     {
         System.out.println("Dieses Fahrzeug hat "+doors+" türe.");
     }
-    public void setColor()
+    public static void farbe(String[] farbe)
     {
-        color="red";
+        System.out.println(color);
 
     }
 }
