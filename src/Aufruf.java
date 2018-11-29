@@ -3,5 +3,6 @@ public class Aufruf {
     {
         vehicle auto= new vehicle();
         auto.Dooranzahl(666);
+        auto.farbe("blau");
     }
 }

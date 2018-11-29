@@ -12,7 +12,7 @@ public class vehicle
     {
         System.out.println("Dieses Fahrzeug hat "+doors+" türe.");
     }
-    public static void farbe(String[] color)
+    public static void farbe(String color)
     {
         System.out.println(color);
 
